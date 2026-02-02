@@ -1,57 +1,65 @@
-# 📈 Sales Time Series Forecasting (Excel)
+## 📈 Time Series Sales Forecasting (Excel)
 
-This project applies **time series forecasting techniques using Microsoft Excel** to estimate future sales performance based on historical trends.  
-It demonstrates how spreadsheet modeling can support business planning and data-driven decision-making.
+This project demonstrates practical forecasting techniques using historical monthly employee data. Multiple forecasting models were built and compared to evaluate performance and prediction accuracy.
+
+### 🔧 Tools Used
+- Microsoft Excel
+- Time series forecasting methods
+- Error analysis (MAE, MSE, RMSE)
 
 ---
 
-## 📊 Project Overview
+## 🔍 Forecasting Methods Compared
 
-The model analyzes historical sales data to:
+### 1️⃣ Naïve Method  
+Assumes the next period equals the previous actual value. Useful as a baseline model.
+
+![Naive Forecast](naivemethod.png)
+
+---
+
+### 2️⃣ Simple Average Method  
+Uses the overall average of historical data to generate forecasts.
+
+![Average Forecast](averagemethod.png)
+
+---
+
+### 3️⃣ Weighted Moving Average (Span of 5)  
+Applies weights to recent data points to better capture trends while smoothing fluctuations.
+
+![Weighted Span 5 Forecast](weighted_spanof5.png)
+
+---
+
+### 4️⃣ Weighted Moving Average (Span of 3)  
+Places stronger emphasis on the most recent observations, making the model more responsive to changes.
+
+![Weighted Span 3 Forecast](weighted_spanof3.png)
+
+---
+
+## 📊 Model Evaluation
+
+Forecast accuracy was measured using:
+
+- **MAE (Mean Absolute Error)**  
+- **MSE (Mean Squared Error)**  
+- **RMSE (Root Mean Squared Error)**  
+
+These metrics were used to compare model performance and determine which approach best balances stability and responsiveness.
+
+---
+
+## 💡 Business Insight
+
+This project simulates real-world workforce planning or demand forecasting scenarios where organizations must:
 
 - Identify trends over time  
-- Build a structured forecasting model  
-- Estimate future performance  
-- Support business planning decisions  
+- Compare forecasting strategies  
+- Select models based on accuracy vs responsiveness  
+- Translate numerical results into planning decisions  
 
-The focus is on translating raw historical data into **actionable business forecasts**.
-
----
-
-## 🛠 Tools Used
-
-- Microsoft Excel  
-- Time series trend analysis  
-- Forecast projection methods  
-
----
-
-## 🎯 Skills Demonstrated
-
-- Time series analysis  
-- Forecast modeling  
-- Business forecasting logic  
-- Data interpretation for planning  
-- Analytical decision support  
-
----
-
-## 📁 Project File
-
-**Excel Forecast Model:**  
-[`time_series_sales_forecast.xlsx`](./time_series_sales_forecast.xlsx)
-
----
-
-## 💡 Business Value
-
-This project reflects real-world forecasting work used in:
-
-- Sales planning  
-- Revenue projections  
-- Operations planning  
-- Financial analysis  
-
-It highlights how structured forecasting models help organizations anticipate future performance and reduce decision uncertainty.
+This demonstrates applied forecasting skills used in **business analytics, operations planning, and financial analysis roles**.
 
 
