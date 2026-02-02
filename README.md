@@ -21,13 +21,13 @@ Data cleaning, transformation, and exploratory analysis using R.
 ### 📈 Forecasting Projects
 Time series and predictive analysis projects.
 
-## Dashboard Previews
+## 📊 Dashboard Previews  
 
-### Sales & Profit Performance Dashboard
-![Sales Dashboard](sales_profit_dashboard.png)
+### Sales & Profit Performance Dashboard  
+![Sales Dashboard](Tableau-Dashboards/sales_profit_dashboard.png)
 
-### Profit Performance by State
-![Profit by State](profit_by_state.png)
+### Profit Performance by State  
+![Profit by State](Tableau-Dashboards/profit_by_state.png)
 
-### Sales & Profit Contribution Treemap
-![Treemap](treemap_contribution.png)
+### Sales & Profit Contribution Treemap  
+![Treemap](Tableau-Dashboards/treemap_contribution.png)
