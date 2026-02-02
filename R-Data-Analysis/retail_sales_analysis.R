@@ -1,9 +1,3 @@
-# Write R code to answer the questions and 
-# save this file as Yourname_ExamI.R
-# Submit it on Canvas before 6:30 PM
-# under Modules --> Exams --> Exam I.
-
-
 ##### Question 1 -- 2 points
 # Write R code to create the data frame given 
 # to you in class. Assign data types as 
@@ -208,3 +202,4 @@ table(salesdata$Product, salesdata$State =="CA")
 mean(salesdata$Children[salesdata$Gender == "F"& salesdata$Category == "Vegetables"], na.rm = TRUE)
 
 # [1] 2.598639
+
