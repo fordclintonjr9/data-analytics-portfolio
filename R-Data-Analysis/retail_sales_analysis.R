@@ -1,4 +1,3 @@
-# Exam I
 # Write R code to answer the questions and 
 # save this file as Yourname_ExamI.R
 # Submit it on Canvas before 6:30 PM
@@ -207,4 +206,5 @@ table(salesdata$Product, salesdata$State =="CA")
 # Find average number of children of Female customers where
 # Category of transaction is Vegetables
 mean(salesdata$Children[salesdata$Gender == "F"& salesdata$Category == "Vegetables"], na.rm = TRUE)
+
 # [1] 2.598639
