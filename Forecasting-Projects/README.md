@@ -1,51 +1,26 @@
-# 📈 Forecasting Projects
+## 📈 Sales Time Series Forecasting (Excel)
 
-This folder contains time series forecasting and predictive analysis projects focused on supporting business decision-making using spreadsheet-based modeling.
+This project applies time series forecasting techniques using Microsoft Excel to estimate future sales performance based on historical trends.
 
-These projects emphasize trend identification, future performance estimation, and practical forecasting techniques applied to real-world style business data.
+### Project Overview
+The model analyzes historical sales data to:
+- Identify trends over time
+- Build a structured forecasting model
+- Estimate future performance
+- Support business planning decisions
 
----
-
-## 🛠 Tools Used
-
+### Tools Used
 - Microsoft Excel  
-- Time series analysis methods  
-- Trend projection techniques  
-- Spreadsheet-based forecasting models  
+- Time series trend analysis  
+- Forecast projection methods  
 
----
-
-## 🎯 Project Focus
-
-- Identifying sales trends over time  
-- Building forecast models based on historical data  
-- Evaluating future performance scenarios  
-- Translating raw data into business planning insights  
-
----
-
-## 🧠 Skills Demonstrated
-
+### Skills Demonstrated
 - Time series analysis  
 - Forecast modeling  
 - Business forecasting logic  
 - Data interpretation for planning  
 - Analytical decision support  
 
----
-
-## 📂 Project Included
-
-### **Sales Time Series Forecasting (Excel)**  
-Forecasting future sales performance using historical data and time series trend analysis.
-
-**Key Highlights**
-- Built forecast projections using historical sales data  
-- Applied trend-based modeling to estimate future values  
-- Evaluated potential performance scenarios  
-- Designed business-ready outputs for planning and decision-making  
-
----
-
-These projects highlight applied forecasting skills commonly used in business analytics, operations planning, and financial analysis roles.
+### Project File
+📂 [Time Series Sales Forecast Model](time_series_sales_forecast.xlsx)
 
